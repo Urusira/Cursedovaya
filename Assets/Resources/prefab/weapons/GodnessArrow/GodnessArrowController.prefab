@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7098812392003770325
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2222446240860057406}
+  - component: {fileID: 8969273506497649374}
+  - component: {fileID: -7934893563213152281}
+  - component: {fileID: 429991280218911869}
+  m_Layer: 0
+  m_Name: GodnessArrowController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2222446240860057406
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7098812392003770325}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8969273506497649374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7098812392003770325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d265868048889e48a879004eb44f0f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weaponPrefab: {fileID: 7152133802869958061, guid: f7986757cf2eff846a1d159927232d1e, type: 3}
+  damage: 6
+  critChance: 5
+  critDamage: 12
+  speed: 16
+  cooldownDur: 2
+  destroyAfterSeconds: 3
+  shootAnim: {fileID: 701726446845377314, guid: f97b7f6c3a548d248b2757293e4d3b62, type: 3}
+--- !u!114 &-7934893563213152281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7098812392003770325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 952794c572714d2293b2c78e9d5c13a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  level: 1
+  levelCharsMultiplier: 1.15
+--- !u!114 &429991280218911869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7098812392003770325}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c17bf6bc456847a6957d0c8f25a3fb34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Godness Arrow
+  Description: The spell, releases a divine arrow in the direction of the caste of
+    the spell, deals 12 units of damage +15% of the base value per level. Crit chance
+    - 10%
+  Image: {fileID: 5137156825890931972, guid: 1ae35c9553b4beb4989f475af59e9a15, type: 3}
+  Type: 0
+  alreadyHave: 0

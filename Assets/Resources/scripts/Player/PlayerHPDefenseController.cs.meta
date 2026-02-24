@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: d10b6372afd848d7a6b92f1b54f6cf78
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - shimmMaterial: {fileID: 2100000, guid: 6f26dcd1547c3a942940e382051c9b63, type: 2}
+  - normalMaterial: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

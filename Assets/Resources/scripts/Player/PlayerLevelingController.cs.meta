@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 67cb2d22c9d3458f9ece724ec535d91f
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - LevelUpChest: {instanceID: 0}
+  - LevelUpEffect: {fileID: 6833378962352868923, guid: a8460f15c67f9d44b870dccf73467a6c, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
